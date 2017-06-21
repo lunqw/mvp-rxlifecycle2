@@ -6,7 +6,7 @@ targetCompatibility = rootProject.ext.targetCompatibilityVersion
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly deps.jsr305
     compile deps.rxlifecycle
     compile deps.mvpbase
-    compile deps.jsr305
 }
