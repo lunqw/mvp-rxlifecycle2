@@ -1,0 +1,4 @@
+include ':mvp-rxlifecycle2-sample'
+include ':mvp-rxlifecycle2'
+
+rootProject.name = 'mvp-rxlifecycle2-parent'
